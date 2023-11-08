@@ -62,6 +62,7 @@ class InventoryManagementSystem:
         # looping through the loaded data for displaying
         for product_id, product in self.inventory.items():
             print(f"Product ID: {product_id}, Name: {product.name}, Price: {product.price}, Quantity: {product.quantity}")
+            print(20*"-")
 
     # Method to load inventory data from a CSV file.
     def load_inventory(self):
